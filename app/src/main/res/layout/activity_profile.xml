@@ -1,0 +1,132 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="135dp"
+            android:layout_height="131dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:src="@drawable/orang2"></ImageView>
+
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fauzi Fikrinullah"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_marginTop="3.8dp"
+            ></TextView>
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/layoutNimNama"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/line"
+        >
+
+        <RelativeLayout
+            android:layout_width="140dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtNim"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="NIM"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                ></TextView>
+            <TextView
+                android:id="@+id/txtDetailNim"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="10119111"
+                android:textSize="17dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center_horizontal"
+                ></TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="180dp">
+            <TextView
+                android:id="@+id/txtKelas"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Kelas"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                ></TextView>
+            <TextView
+                android:id="@+id/txtDetailKelas"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="IF-3"
+                android:textSize="17dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center_horizontal"
+                ></TextView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutDeskripsi"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="@drawable/line"
+        >
+        <TextView
+            android:id="@+id/txtDeskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Deskripsi"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/txtDetailDeskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Seorang peternak sekaligus penghobi ikan
+cupang yang berusaha membuat suatu inovasi dalam dunia percupangan
+maupun perikanan."
+            android:textSize="17dp"></TextView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
